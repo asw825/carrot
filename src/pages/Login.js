@@ -5,7 +5,7 @@ function Login() {
   return <Container>Login</Container>;
 }
 
-const Container = styled.article`
+const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;

@@ -33,7 +33,6 @@ const HeaderWrapper = styled.nav`
   justify-content: center;
   align-items: center;
   height: 64px;
-  border: 1px solid red;
   box-sizing: border-box;
   background-color: #ffffff;
   position: fixed;
@@ -49,6 +48,7 @@ const HeaderLink = styled(Link)`
   color: #4d5159;
   font-weight: bold;
   text-decoration: none;
+
   &:hover {
     color: #868b94;
   }
