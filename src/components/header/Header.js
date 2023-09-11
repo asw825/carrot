@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import cucumberImg from "../../assets/images/cucumber.png";
 
@@ -39,7 +39,7 @@ const HeaderWrapper = styled.nav`
   width: 100vw;
 `;
 
-const HeaderLink = styled(Link)`
+const HeaderLink = styled(NavLink)`
   display: flex;
   margin: 0px 20px;
   text-decoration: none;
@@ -53,9 +53,7 @@ const HeaderLink = styled(Link)`
     color: #868b94;
   }
   &.active {
-    color: aqua;
-    position: relative;
-    top: 2px;
+    color: green;
   }
 `;
 
